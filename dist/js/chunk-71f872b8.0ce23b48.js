@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-71f872b8"],{"7abe":function(t,n,o){"use strict";o.r(n);var e=function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",[e("router-link",{attrs:{to:"/front"}},[t._v("前台頁面")]),e("router-link",{attrs:{to:"/admin"}},[t._v("後台頁面")]),e("img",{attrs:{title:"vue-logo",src:o("cf05"),alt:"vue-logo"}})],1)},r=[],l=o("2877"),u={},a=Object(l["a"])(u,e,r,!1,null,null,null);n["default"]=a.exports},cf05:function(t,n,o){t.exports=o.p+"img/logo.82b9c7a5.png"}}]);
+//# sourceMappingURL=chunk-71f872b8.0ce23b48.js.map
