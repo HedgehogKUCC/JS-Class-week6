@@ -13,23 +13,23 @@ const routes = [
     component: () => import('../views/front/index.vue'),
     children: [
       {
-        path: '/front/products',
+        path: 'products',
         component: () => import('../views/front/components/Products.vue'),
       },
       {
-        path: '/front/shoppingcart',
+        path: 'shoppingcart',
         component: () => import('../views/front/components/ShoppingCart.vue'),
       },
       {
-        path: '/front/about',
+        path: 'about',
         component: () => import('../views/front/components/About.vue'),
       },
       {
-        path: '/front/checkout',
+        path: 'checkout',
         component: () => import('../views/front/components/Checkout.vue'),
       },
       {
-        path: '/front/checkoutfinish',
+        path: 'checkoutfinish',
         component: () => import('../views/front/components/CheckoutFinish.vue'),
       },
     ],
@@ -37,6 +37,12 @@ const routes = [
   {
     path: '/admin',
     component: () => import('../views/back/index.vue'),
+    children: [
+      {
+        path: 'products',
+        component: () => import('../views/back/components/Products.vue'),
+      },
+    ],
   },
   {
     path: '*',
