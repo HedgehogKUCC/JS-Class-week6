@@ -21,7 +21,7 @@
   margin-top: 50px;
 
   h2 {
-    color: #42b983;
+    color: blue;
   }
 
   h3 {
@@ -52,10 +52,10 @@
     &:hover {
       color: #42b983;
     }
-  }
 
-  &.router-link-exact-active {
-    color: #42b983;
+    &.router-link-exact-active {
+      color: #42b983;
+    }
   }
 }
 </style>
